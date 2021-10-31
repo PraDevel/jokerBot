@@ -19,7 +19,7 @@ def joke(update, context):
     update.message.reply_text(str(ppp['setup']+"  "+ str(ppp['punchline'])))
 
 def main():
-    TOKEN = "1789169829:AAHh5KSoeUsiZx8e9iVLq9xICLFV1XhjOig"
+    TOKEN = ""
     updater = Updater(TOKEN, use_context=True)
     dispatcher = updater.dispatcher
 
